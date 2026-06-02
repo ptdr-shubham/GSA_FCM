@@ -26,4 +26,4 @@ def load_dataset(dataset_name: str) -> Tuple[np.ndarray, np.ndarray]:
         raise ValueError(f"Unsupported dataset name: {dataset_name}. Supported datasets are: 'iris', 'wine', 'cancer'.")
     
     #Return features (X) and ground truth labels (y)
-    return data.data, data.target
+    return data.data, data.target 
